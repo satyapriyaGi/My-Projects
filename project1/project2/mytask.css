@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.logo{
+ margin: 5px;
+ padding: 5px;
+}
+.container-fluid{
+  font-family:Poppins,sans-serif;
+  font-size: large;
+}
+.Gallery img:hover{
+  transform:scale(1.2);
+  transition:1s ease-in-out;
+}
+.link a{
+      text-decoration: none;
+      color:black
+}
+.link a:hover{
+  color: orangered;
+}
+.social-media{
+  display: flex;
+}
+.social-media a{
+  width: 30px;
+  height: 30px;
+}
